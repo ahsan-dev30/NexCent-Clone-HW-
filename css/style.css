@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1148px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body h1 {
+    padding-bottom: 20px;
+    color: #4D4D4D;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+body h2 {
+    color: #4D4D4D;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.22;
+    margin: 0 auto;
+}
+
+body h3 {
+    color: #4D4D4D;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.28;
+    margin-top: 1.6rem;
+}
+
+body p {
+    color: #717171;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.ghost {
+    color: #4CAF4F;
+    background-color: transparent;
+}
+
+nav {
+    padding: 30px 0;
+}
+
+nav .logo,
+nav .auth_btn {
+    width: 20%;
+}
+
+nav .auth_btn {
+    text-align: right;
+}
+
+nav .auth_btn .ghost {
+    margin-right: 14px;
+}
+
+nav .menu {
+    width: 60%;
+    text-align: center;
+}
+
+nav .menu li {
+    display: inline-block;
+}
+
+nav .menu a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+    margin: 0 25px;
+    display: inline-block;
+}
+
+nav .menu .active {
+    font-weight: 600;
+}
+
+.home .row {
+    background: #F5F7FA;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.lesson {
+    width: 60%;
+    margin-right: 2%;
+}
+
+.lesson h1 span {
+    color: #4CAF4F;
+}
+
+.lesson p {
+    padding-bottom: 30px;
+}
+
+.lesson_img {
+    width: 38%;
+}
+
+.lesson_img img {
+    width: 85%;
+}
+
+.row .client_heading {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.client_logo {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client_logo img {
+    margin-right: 166px;
+}
+
+.client_logo .c_six {
+    margin-right: 0px;
+}
+
+.client_information {
+    text-align: center;
+}
+
+.row .community {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.community h2 {
+    padding: 10px 0;
+}
+
+.community p {
+    padding: 10px 0;
+}
+
+.row .community_org {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.row .community_organizations {
+    width: 30%;
+    height: 250px;
+    margin-right: 5%;
+    padding: 5px;
+    border: 1px solid rgb(250, 234, 216);
+    background-color: rgba(252, 252, 252, 0.555);
+}
+
+.row .community_associations {
+    width: 30%;
+    height: 250px;
+    margin-right: 5%;
+    padding: 5px;
+    border: 1px solid rgb(250, 234, 216);
+    background-color: rgba(252, 252, 252, 0.555);
+
+}
+
+.row .community_groups {
+    width: 30%;
+    height: 250px;
+    padding: 5px;
+    border: 1px solid rgb(250, 234, 216);
+    background-color: rgba(252, 252, 252, 0.555);
+}
+
+.unseen {
+    margin-top: 50px;
+}
+
+.unseen_img {
+    width: 28%;
+    margin-right: 6rem;
+}
+
+.unseen_mesg {
+    width: 62%;
+}
+
+.unseen_mesg a {
+    margin-top: 30px;
+}
+
+.unseen_mesg p {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.business_msg {
+    width: 50%;
+}
+
+.business_msg span {
+    color: #4CAF4F;
+}
+
+.business_msg p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.help {
+    padding: 30px 0;
+    margin-bottom: 20px;
+    background-color: #eaecee;
+    padding: ;
+}
+
+.business {
+    width: 50%;
+    display: grid;
+    grid-template-columns: minmax(auto, 255px) minmax(auto, 255px);
+    gap: 1rem 4rem;
+    justify-items: start;
+}
+
+.business img {
+    margin-right: 20px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clubs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design {
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.design_img {
+    width: 35%;
+    margin-right: 5%;
+
+}
+
+.design_mesg {
+    width: 60%;
+}
+
+.design_mesg h2 {
+    margin-bottom: 10px;
+}
+
+.design_mesg p {
+    margin-bottom: 30px;
+}
+
+.smith {
+    margin: 30px 0;
+}
+
+.smith .row {
+    padding: 20px 0;
+    background: #eaecee;
+    padding-left: 5px;
+}
+
+.row .smith_img {
+    width: 30%;
+    margin-right: 40px;
+}
+
+.row .smith_img img {
+    width: 90%;
+}
+
+.row .smith_mesg {
+    width: 65%;
+}
+
+.tim {
+    color: #4CAF4F;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: max-content;
+}
+
+.tim_as {
+    padding-bottom: 20px;
+}
+
+.smith_images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smith_images a {
+    color: #4CAF4F;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.smith_images a:hover {
+    color: #18191f;
+    background-color: #4CAF4F;
+}
+
+.caring {
+    width: 100%;
+    padding: 0 250px;
+    text-align: center;
+}
+
+.caring h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.22;
+    margin-bottom: 10px;
+}
+
+.community {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.community img{
+    width: 300px
+}
+.processes{
+    position: relative;
+}
+.processes .text_1{
+    position: absolute;
+    max-width: 90%;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin: -60px auto 0;
+    margin-left: 15px;
+    background-color: #F5F7FA;
+    text-align: center;
+}
+.responsibilities{
+    position: relative;
+}
+.responsibilities .text_2{
+    position: absolute;
+    max-width: 90%;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin: -60px auto 0;
+    margin-left: 15px;
+    background-color: #F5F7FA;
+    text-align: center;
+}
+.membership{
+    position: relative;
+}
+.membership .text_3{
+    position: absolute;
+    max-width: 90%;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin: -60px auto 0;
+    margin-left: 15px;
+    background-color: #F5F7FA;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
